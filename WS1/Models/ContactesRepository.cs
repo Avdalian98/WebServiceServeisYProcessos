@@ -21,7 +21,7 @@ namespace WS1.Models
         }
         public void prueba()
         {
-
+            int a = 0;
         }
         public static List<contacte> SearchContactesByName(string contacteName)
         {
