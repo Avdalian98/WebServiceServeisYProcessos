@@ -19,7 +19,10 @@ namespace WS1.Models
             contacte c = dataContext.contacte.Where(x => x.contacteId == contacteID).SingleOrDefault();
             return c;
         }
+        public void prueba()
+        {
 
+        }
         public static List<contacte> SearchContactesByName(string contacteName)
         {
             List<contacte> lc = dataContext.contacte.Where(x => x.nom.Contains(contacteName) || x.cognoms.Contains(contacteName)).ToList();
