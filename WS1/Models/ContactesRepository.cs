@@ -23,6 +23,7 @@ namespace WS1.Models
         {
             int a = 0;
             a = a + 1;
+            a = a + 2;
         }
         public static List<contacte> SearchContactesByName(string contacteName)
         {
